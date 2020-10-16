@@ -1,0 +1,58 @@
+.section-bgk {
+    background: rgb(92,83,17);
+    background: radial-gradient(circle, rgba(92,83,17,1) 0%, rgba(0,0,0,1) 100%);
+    color: #544b0f;
+    position: relative;
+    z-index: 100;
+    padding-top: 105px;
+  }
+  .gallery .content h3 {
+    font-weight: 600;
+    font-size: 26px;
+  }
+
+   h12 {
+        margin: 0;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 56px;
+        color: #cf9b22;
+        
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'El Messiri', sans-serif;
+      }
+      .btn-watch-video2 {
+        font-size: 15px;
+        display: inline-block;
+        padding: 10px 25px 8px 40px;
+        transition: 0.5s;
+        
+        color: #dea33e73;
+        position: relative;
+        font-weight: 600;
+        
+      }  
+    
+
+    .btn-watch-video2 i {
+     color: #e2e2e273;
+     font-size: 32px;
+     position: absolute;
+     left: 0;
+     top: 7px;
+     transition: 0.3s;
+   }
+   
+    .btn-watch-video2:hover {
+     color: #f1ac15;
+   }
+   
+    .btn-watch-video2:hover i {
+     color: #c98a16;
+   }
+
+
+
+
+  
