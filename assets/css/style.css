@@ -570,6 +570,7 @@ h1, h2, h3, h4, h5, h6 {
   }
    .btn-get-started, #hero .btn-watch-video {
     font-size: 13px;
+    color: #fff;
   }
 }
 
@@ -600,7 +601,7 @@ section {
 }
 .section-bg2{
   background-color: #fec84e;
-background-image: linear-gradient(315deg, #fec84e 0%, #ffdea8 74%);
+  background-image: linear-gradient(315deg, #fec84e 0%, #ffdea8 74%);
 }
 
 
@@ -628,7 +629,7 @@ background-image: linear-gradient(315deg, #fec84e 0%, #ffdea8 74%);
   padding: 8px 20px;
   margin: 0;
   background: #000000;
-  color: #ffc70f;
+  color: #fed070;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
@@ -720,14 +721,17 @@ background-image: linear-gradient(315deg, #fec84e 0%, #ffdea8 74%);
 # Featured Services
 --------------------------------------------------------------*/
 .services{
-  background: #a6a6a4c2;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgb(20, 18, 4) 0%, rgba(0,0,0,1) 100%);
+  color: #a6a6a4;
+
 }
 .featured-services .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
   background: #fff;
-  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  box-shadow: 0 0 29px 0 #bf9e40;
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
@@ -746,7 +750,7 @@ background-image: linear-gradient(315deg, #fec84e 0%, #ffdea8 74%);
 }
 
 .featured-services .icon-box:hover::before {
-  background:#bf9e40 ;
+  background:#c29120 ;
   top: 0;
   border-radius: 0px;
 }
@@ -925,7 +929,7 @@ background-image: linear-gradient(315deg, #fec84e 0%, #ffdea8 74%);
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../img/testimonials-bg2.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
