@@ -502,7 +502,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-#second .btn-get-started {
+.btn-get-started {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -517,11 +517,11 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-#second .btn-get-started:hover {
+ .btn-get-started:hover {
   background: #cf9b22;
 }
 
-#second .btn-watch-video {
+ .btn-watch-video {
   font-size: 16px;
   display: inline-block;
   padding: 10px 25px 8px 40px;
@@ -532,7 +532,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
-#second  .btn-watch-video i {
+ .btn-watch-video i {
   color: #e2e2e273;
   font-size: 32px;
   position: absolute;
@@ -541,11 +541,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
-#second  .btn-watch-video:hover {
+ .btn-watch-video:hover {
   color: #f1ac15;
 }
 
-#second .btn-watch-video:hover i {
+ .btn-watch-video:hover i {
   color: #c98a16;
 }
 
