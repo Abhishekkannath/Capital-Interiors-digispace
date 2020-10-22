@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .social-links a {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgb(255, 255, 255);
   padding-left: 15px;
   display: inline-block;
   line-height: 1px;
@@ -502,7 +502,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
- .btn-get-started {
+#second .btn-get-started {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -517,11 +517,11 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
- .btn-get-started:hover {
+#second .btn-get-started:hover {
   background: #cf9b22;
 }
 
- .btn-watch-video {
+#second .btn-watch-video {
   font-size: 16px;
   display: inline-block;
   padding: 10px 25px 8px 40px;
@@ -532,7 +532,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
- .btn-watch-video i {
+#second  .btn-watch-video i {
   color: #e2e2e273;
   font-size: 32px;
   position: absolute;
@@ -541,11 +541,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
- .btn-watch-video:hover {
+#second  .btn-watch-video:hover {
   color: #f1ac15;
 }
 
- .btn-watch-video:hover i {
+#second .btn-watch-video:hover i {
   color: #c98a16;
 }
 
