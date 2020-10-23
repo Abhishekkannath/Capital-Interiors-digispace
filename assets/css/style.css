@@ -502,7 +502,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-.btn-get-started {
+ .btn-get-started {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -527,7 +527,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 25px 8px 40px;
   transition: 0.5s;
   margin-left: 25px;
-  color: #dea33e73;
+  color: #e2e2e273;
   position: relative;
   font-weight: 600;
 }
@@ -721,8 +721,8 @@ section {
 # Featured Services
 --------------------------------------------------------------*/
 .services{
-  background: rgb(0, 0, 0);
-  background: radial-gradient(circle, rgb(20, 18, 4) 0%, rgba(0,0,0,1) 100%);
+  background: #070b14;
+  background: linear-gradient(0deg, #070b14 0%, rgba(71,64,13,1) 88%); 
   color: #a6a6a4;
 
 }
