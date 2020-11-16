@@ -1,5 +1,4 @@
 
-Template Name: BizLand
-Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Name: Propoint Developers Pvt Ltd
+Author: Abhishek kannath
+License: Capital Interiors and constructors
