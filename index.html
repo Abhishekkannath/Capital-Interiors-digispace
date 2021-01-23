@@ -192,8 +192,8 @@
             <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
               <div class="icon"><i class="bx bx-chevrons-up"></i></div>
               <t4 class="title"><a href="">House Lifting</a></t4>
-              <p class="description">It is important because water can cause a lot of damage to a building. spending time to make the waterproofing system efficient could save lots of stress in the future. We afford a wide range of waterproofing solutions. 
-               <br> Our House lifting services help you in expanding the stature, class and style of your structure speedily and additionally securely. With our high ending services</p>
+              <p class="description">There are several scenarios where lifting your home or building can be a viable way to protect it and improve it: when you need to prevent flooding, add a space in a basement, or increase space in a commercial building. This service is done safely by skilled professionals, who provide solutions best suited for our esteemed clients
+              </p>
             </div>
           </div>
 
@@ -231,11 +231,11 @@
 
         <div class="section-title">
           <t2>Ongoing projects</t2> <br>
-          <t3>Ongoing Projects<ongo>Near Complishment</ongo></t3>
+          <t3>Ongoing Projects<ongo> Near Complishment</ongo></t3>
           
-        </div>
-        <p>we are constructors & interior designers who offer complete, personalized, and quality design services. Understanding our customer's needs and aspirations is key to our designing strategy. We create elegant and perfect interiors that stand the test of time.</p>
 
+        </div>
+        <p class="describe">we are constructors & interior designers who offer complete, personalized, and quality design services. Understanding our customer's needs and aspirations is key to our designing strategy. We create elegant and perfect interiors that stand the test of time.</p>
         <div class="row">
           <div class="col-lg-6" data-aos="zoom-out" data-aos-delay="100"  data-keyboard="true">
             <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel" data-interval="4000">
@@ -331,7 +331,7 @@
 
           </div>
         </div>
-        <p>Over the years, Capital has come to be reckoned widely as one of the trusted and most reliable interior designers. We attribute this to our commitment to quality and timely completion of projects.
+        <p class="describe"><br>Over the years, Capital has come to be reckoned widely as one of the trusted and most reliable interior designers. We attribute this to our commitment to quality and timely completion of projects.
           <a href="gallery.html">View Gallery</a>
         </p>
 
@@ -584,7 +584,7 @@
           <t3>Popular<ongo>Innovations</ongo></t3>
           
         </div>
-        <p>Creating spaces unique & innovatively with affordable Cost. we have such innovations understanding the need without 
+        <p class="describe">Creating spaces unique & innovatively with affordable Cost. we have such innovations understanding the need without 
           compromise.</p>
 
         <a href="#contact">
@@ -650,7 +650,7 @@
             <t4>Chief Designer & Consultant</t4>
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              If you have strong Self-confidense and willpower it seems nothing is impossible.Time is an equal opportunity employer. Each human being has exactly the same number of hours and minutes every day
+              Insight earned by occurence is more worth than libri
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>
@@ -661,7 +661,7 @@
             <t4>Managing Director</t4>
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              A dream does not become reality through magic; it takes sweat, determination, and hard work. devote your time and energy to tasks that matter, make good lifestyle choices, and foster healthy relationships.
+              Daring and persistence makes nothing potest
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>
@@ -717,7 +717,7 @@
             <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979.3693634004866!2d75.93097672913758!3d10.92726089951371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7b345ea9773d9%3A0x2a96a0f4e1ad06c0!2sCapital%20Interiors%20%26%20Constructors!5e0!3m2!1sen!2sin!4v1602151129653!5m2!1sen!2sin" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
           </div>
 
-          <div class="col-lg-6">
+          <div id="" class="col-lg-6">
             <form id="submit-form" class="php-email-form">
               <div class="form-row">
                 <div class="col form-group">
@@ -752,11 +752,6 @@
               <div class="form-group">
                 <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                 <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                
-                <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
@@ -827,7 +822,7 @@
 
     <div class="container py-4">
       <div class="copyright">
-        &copy; Copyright <strong><span>CAPITAL</span></strong> I&C All Rights Reserved
+        &copy; Copyright 2021-22 <strong><span>CAPITAL</span></strong> I&C All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
@@ -865,13 +860,14 @@
             data:$("#submit-form").serialize(),
             method:"post",
             success:function (response){
-                alert("Thank you for your Message ")
-                alert("Also you can follow us on Social networks")
-                window.location.reload()
-                //window.location.href="https://google.com"
+                alert("We got your Message")
+                alert("You can Connect Us on Social media")
+                //window.location.reload();
+                $("#submit-form")[0].reset();
+                //window.location.href="#contact"
             },
             error:function (err){
-                alert("Check your connection")
+                alert("Please Check your Connection")
 
             }
         })
