@@ -67,7 +67,7 @@ h1, t2, t3, t4, h5, h6 {
   0% {
     transform: rotate(0deg);
   }
-  100% {
+  50% {
     transform: rotate(360deg);
   }
 }
@@ -607,6 +607,11 @@ section {
   background: rgb(92,83,17);
   background: radial-gradient(circle, rgba(92,83,17,1) 0%, rgba(0,0,0,1) 100%);
   color: #a6a6a4;
+}
+.describe {
+  color: #ffffff;
+  font-weight: 50;
+  text-align: center;
 }
 .section-bg2{
   background-color: #fec84e;
